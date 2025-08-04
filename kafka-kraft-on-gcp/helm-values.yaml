@@ -1,0 +1,13 @@
+kraft:
+  enabled: true
+  clusterId: "mykraftclusterid123"
+controller:
+  replicaCount: 1
+broker:
+  replicaCount: 2
+persistence:
+  enabled: true
+  size: 8Gi
+listeners:
+  client:
+    protocol: PLAINTEXT
